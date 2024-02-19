@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --fontRoboto: roboto;
+    --fontProtest: protestStrike;
+}
+
+* {
+    font-family: var(--fontRoboto);
+}
+
+body {
+    background-color: #e6e3e3;
+}
+
+.navbar {
+    background-color: white;
+    opacity: 0.3!important;
+}
+
+#home, #about, #skills {
+    padding-top: 8vh!important;
+}
+
+.navbar, .nav-item, .nav-link, .textGeneral {
+    color: black!important;
+}
+
+.name {
+    color: #aa8463;
+}
+
+.nav-item, .nav-link {
+    color: black!important;
+    opacity: 1!important;
+}
+
+.nav-item:hover{
+    text-decoration: underline!important;
+}
+
+.icon {
+    transition: 0.2s ease;
+    padding: 10px 12px!important;
+}
+
+.icon:hover {
+    color: white!important;
+    background-color: gray;
+    border-radius: 5px!important;
+    padding: 10px 12px!important;
+
+}
+
+.hello {
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: fit-content;
+    background-color: #BF5656;
+    color: rgb(8, 8, 8);
+    border: 3px solid;
+    padding: 0.25em 0.5em;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+    position: relative;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.helloText {
+    color: black;
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+.hello:hover {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+}
+
+.bgNavbar {
+    opacity: 0.8;
+}
+
+.shadowImage {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
+
+.tab-pane {
+    padding: 10px;
+    background-color: white;
+    border-radius: 0px 10px 10px 10px!important;
+    margin-left: 1px;
+}
+
+.itemsAbout {
+    font-size: 20px;
+}
+
+.logoTab {
+    width: 50px;
+}
+
+.logoTab2 {
+    width: 65px;
+}
+
+.list-group-item {
+    border: none;
+}
+
+.btnCv {
+    width: fit-content;
+}
+
+
+
+
+
+@media (min-width: 768px) {
+    .hello {
+      padding: 0.25em 0.75em;
+    }
+  }
+  
+@media (max-width: 768px) {
+    #home {
+        padding-top: 0px!important;
+    }
+}
+
+@media (min-width: 1399px){
+    #home {
+        padding-bottom: 20vh;
+    }
+
+    #about {
+        padding-bottom: 300px;
+    }
+}
