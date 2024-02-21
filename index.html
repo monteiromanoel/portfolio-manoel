@@ -20,31 +20,33 @@
 <body>
     <nav class="navbar navbar-expand-lg fixed-top bg-light">
         <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0 fs-3 text-center">
-                <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#home">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#about">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#skills">Skills</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#experiences">Experiences</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
-                </li>
-            </ul>
-            
-          </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 fs-3 text-center">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experiences">Experiences</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+
+            </div>
         </div>
-      </nav>
+    </nav>
 
     <!--Area Home-->
     <section id="home">
@@ -62,7 +64,7 @@
                             Manoel Monteiro de Castro</h2>
                         <h4 class="wow fadeInUp textGeneral" data-wow-duration="0.8s" data-wow-delay="0.3s"
                             style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.3s; animation-name: fadeInUp;">
-                            Product Designer</h4>
+                            Full Stack Developer</h4>
 
                         <p class="textGeneral">
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -124,12 +126,12 @@
 
 
     <section id="about">
-        <div class="container">
+        <div class="container px-2">
             <div class="row section-separator">
                 <div class="col-sm-12 col-md-6">
-                    <div class="mh-about-img shadow-2 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s"
+                    <div class="about-img shadow-2 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s"
                         style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.4s; animation-name: fadeInUp;">
-                        <img src="./static/images/2842680.jpg" alt="" class="img-fluid rounded shadow-sm">
+                        <img src="./static/images/prog1.jpg" alt="" class="img-fluid rounded shadow-sm" height="200px">
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-6">
@@ -165,126 +167,372 @@
                             <div class="tab-content" id="myTabContent">
                                 <div class="tab-pane fade show active" id="front" role="tabpanel"
                                     aria-labelledby="front-tab">
-                                    <ul
-                                        class="list-group list-group-horizontal text-center d-flex justify-content-center align-items-center itemsAbout">
+
+                                    <div class="row p-3">
+                                        <div class="col">
+                                            <div class="my-2">
+                                                <img src="./static/images/logos/front2.png" class="logoTab3" alt=""
+                                                    data-bs-toggle="tooltip" data-bs-placement="top"
+                                                    title="Front-End Basics">
+                                            </div>
+                                            <div>
+                                                <ul class="list-group">
+                                                    <li class="list-group-item">
+                                                        Estruturação com HTML5
+                                                    </li>
+                                                    <li class="list-group-item">
+                                                        Estilização com CSS3
+                                                    </li>
+                                                    <li class="list-group-item">
+                                                        Dinamicidade das páginas com JavaScript
+                                                    </li>
+                                                </ul>
+                                            </div>
+
+                                        </div>
+                                        <div class="col">
+                                            <div class="my-2">
+                                                <img src="./static/images/logos/next-react.png" class="logoTab" alt=""
+                                                    data-bs-toggle="tooltip" data-bs-placement="top"
+                                                    title="ReactJs / NextJs">
+                                            </div>
+                                            <div>
+                                                <ul class="list-group">
+                                                    <li class="list-group-item">
+                                                        Estruturação das páginas com ReactJs e NextJs, com conexões a
+                                                        API's
+                                                    </li>
+                                                </ul>
+                                            </div>
+
+                                        </div>
+                                        <div class="col">
+                                            <div class="my-2">
+                                                <img src="static/images/logos/bootstrap-5-1.svg" class="logoTab2" alt=""
+                                                    data-bs-toggle="tooltip" data-bs-placement="top" title="Bootstrap">
+                                            </div>
+                                            <div>
+                                                <ul class="list-group">
+                                                    <li class="list-group-item">
+                                                        Estilização com as principais convenções do mercado, em conjunto
+                                                        com manutenções manuais com CSS3
+                                                    </li>
+                                                </ul>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <!--
+                                    <ul class="list-group list-group-horizontal text-center d-flex justify-content-center align-items-center">
                                         <li class="list-group-item">
-                                            <img src="./static/images/logos/html-1.svg" class="logoTab" alt=""
-                                                data-bs-toggle="tooltip" data-bs-placement="bottom" title="HTML5">
-                                            <img src="./static/images/logos/css-3.svg" class="logoTab" alt=""
-                                                data-bs-toggle="tooltip" data-bs-placement="bottom" title="CSS3">
-                                            <img src="./static/images/logos/javascript-1.svg" class="logoTab" alt=""
-                                                data-bs-toggle="tooltip" data-bs-placement="bottom" title="JavaScript">
+                                            <img src="./static/images/logos/front2.png" class="logoTab3" alt="" data-bs-toggle="tooltip"
+                                                data-bs-placement="top" title="Front-End Basics">
                                         </li>
                                         </li>
                                         <li class="list-group-item">
-                                            <img src="./static/images/logos/react-2.svg" class="logoTab" alt=""
-                                                data-bs-toggle="tooltip" data-bs-placement="bottom" title="ReactJs">
-                                            <img src="./static/images/logos/next-js.svg" class="logoTab" alt=""
-                                                data-bs-toggle="tooltip" data-bs-placement="bottom" title="NextJs">
+                                            <img src="./static/images/logos/react-2.svg" class="logoTab" alt="" data-bs-toggle="tooltip"
+                                                data-bs-placement="top" title="ReactJs">
+                                            <img src="./static/images/logos/next-js.svg" class="logoTab" alt="" data-bs-toggle="tooltip"
+                                                data-bs-placement="top" title="NextJs">
                                         </li>
                                         <li class="list-group-item">
-                                            <img src="static/images/logos/bootstrap-5-1.svg" class="logoTab2" alt=""
-                                                data-bs-toggle="tooltip" data-bs-placement="bottom" title="Bootstrap">
+                                            <img src="static/images/logos/bootstrap-5-1.svg" class="logoTab2" alt="" data-bs-toggle="tooltip"
+                                                data-bs-placement="top" title="Bootstrap">
                                         </li>
                                     </ul>
-                                </div>
-                                <div class="tab-pane fade" id="back" role="tabpanel" aria-labelledby="back-tab">
-                                    <ul
-                                        class="list-group list-group-horizontal text-center d-flex justify-content-center align-items-center itemsAbout">
+                                    <ul class="list-group list-group-horizontal ">
                                         <li class="list-group-item">
-                                            <img src="./static/images/logos/java-4.svg" class="logoTab2" alt=""
-                                                data-bs-toggle="tooltip" data-bs-placement="bottom" title="Java">
-                                            <img src="./static/images/logos/spring-3.svg" class="logoTab2" alt=""
-                                                data-bs-toggle="tooltip" data-bs-placement="bottom" title="Spring Boot">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam optio
+                                                rerum quasi odio nobis harum culpa, saepe libero amet labore quidem.
+                                                Alias voluptas velit, voluptatibus ea tempora a? Voluptates,
+                                                voluptatibus.
+                                            </p>
+                                    
+                                        </li>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam optio
+                                                rerum quasi odio nobis harum culpa, saepe libero amet labore quidem.
+                                                Alias voluptas velit, voluptatibus ea tempora a? Voluptates,
+                                                voluptatibus.
+                                            </p>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam optio
+                                                rerum quasi odio nobis harum culpa, saepe libero amet labore quidem.
+                                                Alias voluptas velit, voluptatibus ea tempora a? Voluptates,
+                                                voluptatibus.
+                                            </p>
+                                        </li>
+                                    </ul>
+                                    -->
+                                </div>
+
+
+
+                                <div class="tab-pane fade" id="back" role="tabpanel" aria-labelledby="back-tab">
+                                    <div class="row p-3">
+                                        <div class="col">
+                                            <div class="my-2">
+                                                <img src="./static/images/logos/java-spring.png" class="logoTab" alt=""
+                                                    data-bs-toggle="tooltip" data-bs-placement="top"
+                                                    title="Front-End Basics">
+                                            </div>
+                                            <div>
+                                                <ul class="list-group">
+                                                    <li class="list-group-item">
+                                                        Java EE 17+
+                                                    </li>
+                                                    <li class="list-group-item">
+                                                        Framework Spring Boot
+                                                        <ul class="list-group">
+                                                            <li class="list-group-item">
+                                                                Spring Security
+                                                            </li>
+                                                            <li class="list-group-item">
+                                                                Spring Data
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="list-group-item">
+                                                        Web
+                                                    </li>
+
+                                                </ul>
+                                            </div>
+
+                                        </div>
+                                        <div class="col">
+                                            <div class="my-2">
+                                                <img src="./static/images/logos/dotnet-csharp.png" class="logoTab"
+                                                    alt="" data-bs-toggle="tooltip" data-bs-placement="top"
+                                                    title="DotNet / C#">
+                                            </div>
+                                            <div>
+                                                <ul class="list-group">
+                                                    <li class="list-group-item">
+                                                        Estruturação das páginas com ReactJs e NextJs, com conexões a
+                                                        API's
+                                                    </li>
+                                                </ul>
+                                            </div>
+
+                                        </div>
+                                        <div class="col">
+                                            <div class="my-2">
+                                                <img src="static/images/logos/bootstrap-5-1.svg" class="logoTab2" alt=""
+                                                    data-bs-toggle="tooltip" data-bs-placement="top" title="Bootstrap">
+                                            </div>
+                                            <div>
+                                                <ul class="list-group">
+                                                    <li class="list-group-item">
+                                                        Estilização com as principais convenções do mercado, em conjunto
+                                                        com manutenções manuais com CSS3
+                                                    </li>
+                                                </ul>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <!--
+                                    <ul
+                                        class="list-group list-group-horizontal text-center d-flex justify-content-center align-items-center">
+                                        <li class="list-group-item">
+                                            <img src="./static/images/logos/java-4.svg" class="logoTab2 my-2" alt=""
+                                                data-bs-toggle="tooltip" data-bs-placement="top" title="Java">
+                                            <img src="./static/images/logos/spring-3.svg" class="logoTab2 my-2" alt=""
+                                                data-bs-toggle="tooltip" data-bs-placement="top" title="Spring Boot">
+
                                         </li>
                                         </li>
                                         <li class="list-group-item">
                                             <img src="./static/images/logos/dot-net-core-7.svg" class="logoTab2" alt=""
-                                                data-bs-toggle="tooltip" data-bs-placement="bottom" title=".Net">
-                                            <img src="./static/images/logos/c--4.svg" class="logoTab2" alt=""
-                                                data-bs-toggle="tooltip" data-bs-placement="bottom" title="C#">
+                                                data-bs-toggle="tooltip" data-bs-placement="top" title=".Net">
+                                            <img src="./static/images/logos/c--4.svg" class="logoTab my-2" alt=""
+                                                data-bs-toggle="tooltip" data-bs-placement="top" title="C#">
+
                                         </li>
                                         <li class="list-group-item">
-                                            <img src="static/images/logos/nodejs-1.svg" class="logoTab2" alt=""
-                                                data-bs-toggle="tooltip" data-bs-placement="bottom" title="NodeJs">
-                                        </li>
-                                    </ul>
+                                            <img src="static/images/logos/nodejs-1.svg" class="logoTab2 my-2" alt=""
+                                                data-bs-toggle="tooltip" data-bs-placement="top" title="NodeJs">
 
+                                        </li>
+
+                                    </ul>
+                                    <ul
+                                        class="list-group list-group-horizontal text-center d-flex justify-content-center align-items-center itemsAbout">
+                                        <li class="list-group-item">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam optio
+                                                rerum quasi odio nobis harum culpa, saepe libero amet labore quidem.
+                                                Alias voluptas velit, voluptatibus ea tempora a? Voluptates,
+                                                voluptatibus.
+                                            </p>
+                                        </li>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam optio
+                                                rerum quasi odio nobis harum culpa, saepe libero amet labore quidem.
+                                                Alias voluptas velit, voluptatibus ea tempora a? Voluptates,
+                                                voluptatibus.
+                                            </p>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam optio
+                                                rerum quasi odio nobis harum culpa, saepe libero amet labore quidem.
+                                                Alias voluptas velit, voluptatibus ea tempora a? Voluptates,
+                                                voluptatibus.
+                                            </p>
                                 </div>
-                                <div class="tab-pane fade" id="other" role="tabpanel" aria-labelledby="other-tab">
-                                    <p>
-                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro tempora dolor
-                                        libero explicabo doloremque officia pariatur sit ea sequi dicta sint voluptatum,
-                                        fugiat quidem, natus nobis expedita molestiae magnam quos?
-                                    </p>
+                                </li>
+
+                                </ul>
+
+                            </div>
+                            -->
+                                    <div class="tab-pane fade" id="other" role="tabpanel" aria-labelledby="other-tab">
+                                        <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro tempora
+                                            dolor
+                                            libero explicabo doloremque officia pariatur sit ea sequi dicta sint
+                                            voluptatum,
+                                            fugiat quidem, natus nobis expedita molestiae magnam quos?
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
+                            <a href="./static/files/lorem-ipsum.pdf" download="arquivo.pdf"
+                                class="btn btn-fill btn-primary fs-5 my-3 d-flex justify-content-center wow fadeInUp btnCv"
+                                data-wow-duration="0.8s" data-wow-delay="0.4s"
+                                style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.4s; animation-name: fadeInUp;">Download
+                                CV <i class="fa fa-download mx-2"></i></a>
                         </div>
-                        <a href="./static/files/lorem-ipsum.pdf" download="arquivo.pdf" class="btn btn-fill btn-primary fs-5 my-3 d-flex justify-content-center wow fadeInUp btnCv" data-wow-duration="0.8s" data-wow-delay="0.4s"
-                            style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.4s; animation-name: fadeInUp;">Download
-                            CV <i class="fa fa-download mx-2"></i></a>
                     </div>
                 </div>
             </div>
-        </div>
     </section>
 
     <!--Area Home-->
     <section id="skills">
-        <div class="container mt-5">
-            <div class="row xs-column-reverse section-separator vertical-middle-content home-padding">
-                <div class="col-sm-6">
-                    <div class="mh-header-info">
-                        <div class="mh-promo wow fadeInUp hello my-2" data-wow-duration="0.8s" data-wow-delay="0.1s"
-                            style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.1s; animation-name: fadeInUp;">
-                            <span>Hello I'm</span>
-                        </div>
-
-                        <h2 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s"
-                            style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.2s; animation-name: fadeInUp;">
-                            Alex Johnson</h2>
-                        <h4 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s"
-                            style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.3s; animation-name: fadeInUp;">
-                            Product Designer</h4>
-
+        <div class="container">
+            <div class="row gap-3">
+                <div class="col-sm-12 text-center section-title wow fadeInUp" data-wow-duration="0.8s"
+                    data-wow-delay="0.2s"
+                    style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.2s; animation-name: fadeInUp;">
+                    <h3>What I do</h3>
+                </div>
+                <div class="col bgCard1 text-white p-3 rounded-start shadow">
+                    <div class="mh-service-item shadow-1 dark-bg wow fadeInUp" data-wow-duration="0.8s"
+                        data-wow-delay="0.3s"
+                        style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.3s; animation-name: fadeInUp;">
+                        <i class="fa fa-bullseye purple-color"></i>
+                        <h3>UI Design</h3>
                         <p>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            when an unknown printer took a galley of type and scrambled it to make a type specimen
-                            book.
-                            It has survived not only five centuries, but also the leap into electronic typesetting
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                            sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                            magna aliquam erat volutpat.
                         </p>
-
-                        <ul class="list-group list-group-horizontal d-flex justify-content-center fs-2"
-                            data-wow-duration="0.8s" data-wow-delay="0.7s"
-                            style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.7s; animation-name: fadeInUp;">
-                            <li class="list-group-item border-0"><a href=""><i
-                                        class="fa fa-facebook text-muted icon"></i></a></li>
-                            <li class="list-group-item border-0"><a href=""><i
-                                        class="fa fa-twitter text-muted icon"></i></a></li>
-                            <li class="list-group-item border-0"><a href=""><i
-                                        class="fa fa-github text-muted icon"></i></a></li>
-                            <li class="list-group-item border-0"><a href=""><i
-                                        class="fa-brands fa-linkedin text-muted icon"></i></a></li>
-                            <li class="list-group-item border-0"><a href=""><i
-                                        class="fa fa-envelope-o text-muted icon"></i></a></li>
-                            <li class="list-group-item border-0"><a href=""><i
-                                        class="fa fa-download text-muted icon"></i></a></li>
-                        </ul>
-
                     </div>
                 </div>
-                <div class="col-sm-6">
-                    <div class="hero-img wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s"
-                        style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.6s; animation-name: fadeInUp;">
-                        <div class="border rounded-circle">
-                            <img src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnxlbnwwfHwwfHx8MA%3D%3D"
-                                alt="" class="img-fluid rounded-circle shadow">
-                        </div>
+                <div class="col bgCard2 text-white p-3 shadow">
+                    <div class="mh-service-item shadow-1 dark-bg wow fadeInUp" data-wow-duration="0.8s"
+                        data-wow-delay="0.5s"
+                        style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.5s; animation-name: fadeInUp;">
+                        <i class="fa fa-code iron-color"></i>
+                        <h3>Web Development</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                            sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                            magna aliquam erat volutpat.
+                        </p>
+                    </div>
+                </div>
+                <div class="col bgCard3 text-white p-3 rounded-end shadow">
+                    <div class="mh-service-item shadow-1 dark-bg wow fadeInUp" data-wow-duration="0.8s"
+                        data-wow-delay="0.7s"
+                        style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.7s; animation-name: fadeInUp;">
+                        <i class="fa fa-object-ungroup sky-color"></i>
+                        <h3>App Development</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                            sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                            magna aliquam erat volutpat.
+                        </p>
+                    </div>
+                </div>
+                <div class="row my-4">
+                    <div class="col">
+                        <h3>Habilidades Técnicas (Hard Skills)</h3>
+                        <details>
+                            <summary>Básico do Front-End</summary>
+                            <ul>
+                                <li>
+                                    Estruturação de páginas com HTML5
+                                </li>
+                                <li>
+                                    Estilização de componentes com CSS3
+                                </li>
+                                <li>
+                                    Estilização seguindo normalizações com Bootstrap 5 
+                                </li>
+                                <li>
+                                    Criação de dinamicidade nas páginas com JavaScript
+                                </li>
+                            </ul>
+                        </details>
+                        <details>
+                            <summary>Java</summary>
+                            <ul>
+                                <li>Java EE 17+(Enterprise Edition)</li>
+                                <li>Framework Spring Boot com seus principais componentes</li>
+                                <li>Criação de API's</li>
+                                <li>Criação de projetos Web completos com padrão MVC</li>
+                            </ul>
+                        </details>
+
+                        <details>
+                            <summary>.Net C#</summary>
+                            <ul>
+                                <li>.Net 6+</li>
+                                <li>Criação de API's</li>
+                                <li>Criação projetos Web com padrão MVC</li>
+                            </ul>
+                        </details>
+                        <details>
+                            <summary>ReactJs / NextJs</summary>
+                            <ul>
+                                <li>ReactJs e / ou NextJs</li>
+                                <li>Componentização de elementos</li>
+                                <li>Conexão e consumo de API's</li>
+                            </ul>
+                        </details>
+                        <details>
+                            <summary>Banco de Dados</summary>
+                            <ul>
+                                <li>MySQL, PostgreSQL, SQL Server e NoSQL</li>
+                                <li>Criação de diagramas de banco de dados</li>
+                                <li>Estruturação lógica com base no sistema</li>
+                            </ul>
+                        </details>
+                    </div>
+                    <div class="col">
+                        <h3>Habilidades Profissionais (Soft Skills)</h3>
+                        <ul>
+                            <li>Comunicação ativa</li>
+                            <li>Compreensão de problemas</li>
+                            <li>Trabalho individual ou conjunto</li>
+                            <li>Estruturação de ideias</li>
+                            <li>Proatividade</li>
+                            <li>Vontade de aprender sempre mais</li>
+                        </ul>
                     </div>
                 </div>
             </div>
-        </div>
         </div>
     </section>
 

@@ -3,10 +3,12 @@
 :root {
     --fontRoboto: roboto;
     --fontProtest: protestStrike;
+    --transition: 0.2s ease;;
 }
 
 * {
     font-family: var(--fontRoboto);
+    scroll-behavior: smooth!important;
 }
 
 body {
@@ -46,7 +48,7 @@ body {
 
 .icon:hover {
     color: white!important;
-    background-color: gray;
+    background-color: #BF5656;
     border-radius: 5px!important;
     padding: 10px 12px!important;
 
@@ -97,15 +99,19 @@ body {
 }
 
 .itemsAbout {
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .logoTab {
-    width: 50px;
+    width: 130px;
 }
 
 .logoTab2 {
-    width: 65px;
+    width: 98px;
+}
+
+.logoTab3 {
+    width: 120px;
 }
 
 .list-group-item {
@@ -116,6 +122,26 @@ body {
     width: fit-content;
 }
 
+.bgCard1 {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(32,45,115,1) 59%, rgb(0, 118, 141) 100%);
+    transition: var(--transition);
+}
+
+.bgCard2 {
+    background-color: #008ca8;
+    transition: var(--transition);
+}
+
+.bgCard3 {
+    background: rgb(2,0,36);
+    background: linear-gradient(270deg, rgba(2,0,36,1) 0%, rgba(32,45,115,1) 59%, rgba(0,140,168,1) 100%);
+    transition: var(--transition);
+}
+
+.bgCard1:hover, .bgCard2:hover, .bgCard3:hover{
+    transform: scale(1.05);
+}
 
 
 
@@ -129,6 +155,10 @@ body {
 @media (max-width: 768px) {
     #home {
         padding-top: 0px!important;
+    }
+
+    .about-img {
+        margin-bottom: 20px!important;
     }
 }
 
