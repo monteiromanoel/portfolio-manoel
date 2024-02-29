@@ -17,10 +17,10 @@ body {
 
 .navbar {
     background-color: white;
-    opacity: 0.3!important;
+    opacity: 0.6!important;
 }
 
-#home, #about, #skills {
+#home, #about, #skills, #experiences {
     padding-top: 8vh!important;
 }
 
@@ -34,7 +34,6 @@ body {
 
 .nav-item, .nav-link {
     color: black!important;
-    opacity: 1!important;
 }
 
 .nav-item:hover{
@@ -143,6 +142,21 @@ body {
     transform: scale(1.05);
 }
 
+.card-header {
+    padding: 20px!important;
+}
+
+.linkEducation {
+    text-decoration: none;
+}
+
+.linkEducation:hover {
+    text-decoration: underline;
+}
+
+.coursesList > li {
+    padding-bottom: 7px!important;
+}
 
 
 
@@ -163,11 +177,8 @@ body {
 }
 
 @media (min-width: 1399px){
-    #home {
+    #home, #about, #skills, #experiences {
         padding-bottom: 20vh;
     }
 
-    #about {
-        padding-bottom: 300px;
-    }
 }
