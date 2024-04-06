@@ -20,7 +20,7 @@ body {
     opacity: 0.6!important;
 }
 
-#home, #about, #skills, #experiences {
+#home, #about, #skills, #experiences, #portfolio {
     padding-top: 8vh!important;
 }
 
@@ -97,6 +97,13 @@ body {
     margin-left: 1px;
 }
 
+.colTab {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
 .itemsAbout {
     font-size: 16px;
 }
@@ -158,7 +165,101 @@ body {
     padding-bottom: 7px!important;
 }
 
+.cardPortfolio {
+    max-width: 30vw;
+    transition: 0.5s ease;
+}
 
+.textCardPortfolio {
+    position: absolute;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    opacity:0;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    cursor: pointer;
+}
+
+.cardPortfolio:hover {
+    transform: scale(1.1);
+    margin-top: 0px 5px;
+}
+
+.cardPortfolio:hover .textCardPortfolio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    inset: 0;
+}
+
+.map-image {
+    background-image: url("../images/map-color-overlay.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    background-position: center center;
+}
+
+.home-divider {
+    height: 12vh;
+}
+
+.about-divider {
+    height: 16vh;
+}
+
+.skills-divider {
+    height: 11vh;
+}
+
+.portfolio-divider {
+    height: 10vh;
+}
+
+.contact-divider {
+    height: 20vh;
+}
+
+@media (max-width: 1399px) {
+    .home-divider {
+        height: 21vh;
+    }
+    
+    .about-divider {
+        height: 22vh;
+    }
+    
+    .skills-divider {
+        height: 11vh;
+    }
+}
+
+@media (max-width: 1199px) {
+    .home-divider {
+        height: 31vh;
+    }
+
+    #home {
+        display: flex!important;
+        align-content: center!important;
+        padding-top: 20vh!important;
+    }
+    
+    .about-divider {
+        height: 22vh;
+    }
+    
+    .skills-divider {
+        height: 11vh;
+    }
+}
+
+/*
+ 
 
 @media (min-width: 768px) {
     .hello {
@@ -182,3 +283,41 @@ body {
     }
 
 }
+
+@media (max-width: 1395px){
+    #home, #about, #skills, #experiences {
+        padding-bottom: 21vh;
+    }
+
+}
+
+@media (max-width: 1199px){
+    #home, #about, #skills, #experiences {
+        padding-bottom: 31vh;
+    }
+
+}
+
+@media (max-width: 768px){
+    #home, #about, #skills, #experiences {
+        padding-bottom: 31vh;
+        margin-top: 15vh;
+    }
+
+}
+
+@media (max-width: 574px){
+    #home, #about, #skills, #experiences {
+        padding-bottom: 31vh;
+        margin-top: 8vh;
+    }
+
+    .hero-img {
+        width: 80vw;
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+*/
